@@ -6,19 +6,105 @@ body {
 header {
     background-color: #4ea1ff;
     background-image: url("../img/pattern.png");
-    background-size: 35%;
+    background-size: 500px;
+    height: 120px;
 }
 
 #headerTitle {
-    margin-top: 3%;
-    width: 20%;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 70px;
 }
 /* fine header */
+
+/* main */
+
+.highlighted {
+    background-color: yellow;
+}
+
+.blueText {
+    color: #6ca0a9;
+}
+
+.main2text {
+    margin-top: -10px;
+}
+
+.trowMain3 {
+    background-color: #b1e6f2;
+}
+
+/* section 1 */
+#main1Title {
+    font-size: 45px;
+    margin-left: 10px;
+    margin-bottom: -14px;
+    margin-top: 10px;
+}
+
+main p {
+    margin-left: 10px;
+}
+
+#main1 p {
+    color: grey;
+}
+
+#dataMain1 {
+    font-size: 12px;
+    margin-top: -12px;
+}
+/* fine section 1 */
+
+/* section 2 */
+#imagesMain2 {
+    height: 360px;
+    margin-left: 10px;
+}
+
+
+#main2 p {
+    font-size: 12px;
+}
+/* fine section 2 */
+
+/* section 3 */
+#main3 p {
+    font-size: 17px;
+}
+
+#ulMain3 {
+    margin-left: -10px;
+}
+
+table {
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+
+tr, th {
+    padding: 10px 100px 10px 0px;
+    text-align: left;
+    font-weight: 500;
+}
+
+thead th {
+    background-color: #4ea1ff;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* fine section 3 */
+
+/* fine main */
 
 /* footer */
 footer p {
     color: grey;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 #footerMonitorImg {
@@ -28,6 +114,9 @@ footer p {
     background-repeat: no-repeat;
     color: white;
     font-size: 20px;
+    margin-left: 10px;
+    margin-top: -5px;
+    text-align: center;
 }
 
 #footerGraphicImg {
@@ -37,5 +126,7 @@ footer p {
     background-repeat: no-repeat;
     color: white;
     font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
 }
 /* fine footer */
