@@ -1,132 +1,129 @@
 body {
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 /* header */
 header {
-    background-color: #4ea1ff;
-    background-image: url("../img/pattern.png");
-    background-size: 500px;
-    height: 120px;
+    background:#4ea1ff url("../img/pattern.png") repeat;
+    background-size: 550px;
+    height: 142px;
 }
 
-#headerTitle {
-    margin-top: 50px;
-    margin-left: 20px;
-    height: 70px;
+.logo img {
+   height: 70px;
+   margin-top: 55px;
+   margin-left: 10px;
 }
 /* fine header */
 
 /* main */
+main {
+    margin-left: 10px;
+}
+
+/* firstSection */
+main h1 {
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: -20px;
+    color: black;
+}
+
+#firstSection {
+    color: grey;
+    font-size: 20px;
+}
+
+.blueFont {
+    color: #4ea1ff;
+}
+
+.dataArticle {
+    margin-top: -18px;
+    font-size: 15px;
+}
+/* fine firstSection */
+
+/* secondSection */
+#secondSection div {
+    margin-bottom: -15px;
+}
+
+.attachPhrase {
+    margin-top: -15px;
+}
+/* fine secondSection */
+
+/* thirdSection */
+#thirdSection {
+    font-size: 20px;
+}
 
 .highlighted {
     background-color: yellow;
 }
 
-.blueText {
-    color: #6ca0a9;
+#thirdSection ul {
+    margin-left: -20px;
 }
 
-.main2text {
-    margin-top: -10px;
+#thirdSection table{
+    border-spacing: 0px;
 }
 
-.trowMain3 {
+#thirdSection table tbody td{
+    padding-right: 400px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#thirdSection table thead {
+    background-color: #1eabe4;
+    color: white;
+    font-weight: bold;   
+}
+
+#thirdSection table tbody tr{
     background-color: #b1e6f2;
 }
 
-/* section 1 */
-#main1Title {
-    font-size: 45px;
-    margin-left: 10px;
-    margin-bottom: -14px;
-    margin-top: 10px;
+#thirdSection table tbody .whiteRow {
+    background-color: white;
 }
 
-main p {
-    margin-left: 10px;
-}
-
-#main1 p {
-    color: grey;
-}
-
-#dataMain1 {
-    font-size: 12px;
-    margin-top: -12px;
-}
-/* fine section 1 */
-
-/* section 2 */
-#imagesMain2 {
-    height: 360px;
-    margin-left: 10px;
-}
-
-
-#main2 p {
-    font-size: 12px;
-}
-/* fine section 2 */
-
-/* section 3 */
-#main3 p {
-    font-size: 17px;
-}
-
-#ulMain3 {
-    margin-left: -10px;
-}
-
-table {
-    margin-left: 10px;
-    border-collapse: collapse;
-}
-
-tr, th {
-    padding: 10px 100px 10px 0px;
-    text-align: left;
-    font-weight: 500;
-}
-
-thead th {
-    background-color: #4ea1ff;
-    color: white;
-    font-weight: bold;
-    white-space: nowrap;
-}
-
-/* fine section 3 */
+/* fine thirdSection */
 
 /* fine main */
 
 /* footer */
+footer {
+    margin-left: 10px;
+}
+
 footer p {
     color: grey;
     font-weight: bold;
-    margin-left: 10px;
+    font-size: 22px;
+    margin-bottom: -1px;
 }
 
-#footerMonitorImg {
-    background-image: url("../img/monitor.jpg");
-    width: 270px;
-    height: 200px;
-    background-repeat: no-repeat;
+footer span {
     color: white;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: -5px;
-    text-align: center;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
-#footerGraphicImg {
-    background-image: url("../img/graph.jpg");
+#containerFooter {
+    margin-top: 10px;
+}
+
+.footerImg {
     width: 270px;
-    height: 200px;
-    background-repeat: no-repeat;
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-    text-align: center;
+    overflow: hidden;
+    margin-top: 8px;
 }
 /* fine footer */
